@@ -108,8 +108,7 @@ public class DigFragment extends Fragment implements LocationListener{
         digButton.setOnClickListener(new View.OnClickListener()
         {
             @Override
-            public void onClick(View v)
-            {
+            public void onClick(View v){
                 InventoryService.startDig();
 
                 //adds a marker (containing a position constructed from a LatLng built from the latitude and longitude of the users last recorded location) to the google map
@@ -128,9 +127,7 @@ public class DigFragment extends Fragment implements LocationListener{
                 bkgButtonFragment.getButton().setVisibility(View.VISIBLE);
                 bkgButtonFragment.getRelativeLayout().setVisibility(View.VISIBLE);
                 bkgButtonFragment.getTextView().setText(freshTreasure);
-
-
-                    }
+            }
         });
 
         return rootView;
