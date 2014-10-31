@@ -109,6 +109,8 @@ public class DigFragment extends Fragment implements LocationListener{
                 bkgButtonFragment.getButton().setVisibility(View.VISIBLE);
                 bkgButtonFragment.getRelativeLayout().setVisibility(View.VISIBLE);
                 bkgButtonFragment.getTextView().setText(freshTreasure);
+
+
                     }
         });
 
